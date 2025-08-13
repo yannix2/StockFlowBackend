@@ -7,7 +7,7 @@ async function bootstrap() {
 
   // Enable CORS BEFORE starting the server
   app.enableCors({
-    origin: 'http://localhost:3000', // your frontend origin
+    origin: 'https://stock-flow-frontend-v7hf.vercel.app', // your frontend origin
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true,
   });
